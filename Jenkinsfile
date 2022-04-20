@@ -7,7 +7,7 @@ pipeline {
                 echo 'Hello World'
             }
         }
-	stage('Hello2'){
+	stage('Branch2'){
 	    steps{
 		echo 'Hello from branch2'
 	    }
